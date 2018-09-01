@@ -1,0 +1,357 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Mukta Mahee', sans-serif;
+}
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid #ad343e;
+}
+.nav-container span {
+    align-self: center;
+}
+.mylogo{
+    color: #fff;
+    font-weight: bold;
+    font-size: 25px;
+    margin-right: auto;
+    padding: 13px;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    flex: 1 1 auto;
+}
+ul li a {
+    display: block;
+    padding: 20px;
+    font-size: 17px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ad343e;
+    transition: color 2s ease, background 2s ease, padding 2s ease;
+}
+ul li a:hover {
+    background: #f9f1f1;
+    color: #ad343e;
+}
+.active{
+    background: #f9f1f1;
+    color: #ad343e;
+}
+.bar{
+    width: 17px;
+    height: 2px;
+    margin: 3px;
+    background: #ad343e;
+}
+.btn{
+    padding: 2px;
+    display: inline-block;
+    align-self: center;
+    border: 2px solid #ad343e;
+    cursor: pointer;
+    display: none;
+}
+header {
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(255,255,255,0.3),rgba(255,255,255,0.3)),url(images/1.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+}
+nav{
+    flex: 1 0 auto;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    display: flex;
+}
+.banner{
+    flex: 1 0 auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.banner h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.banner h3 {
+    text-transform: capitalize;
+    font-size: 30px;
+    color: #f9f1f1;
+    text-shadow: 2px 2px #fc7272;
+}
+.banner-icons{
+    padding: 20px;
+}
+.banner-icons a {
+    font-size: 30px;
+    padding: 5px 10px;
+    margin: 0px 10px;
+    border-radius: 50%;
+    color: #f5f3f5;
+    transition: color 1s ease, transfom 1s ease;
+    background:#474747;
+    display: inline-block;
+}
+.banner-icons a:hover{
+    transform: translateY(-10px);
+    color: #ad343e;
+}
+.services{
+    background-image:url(images/time.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+}
+.service {
+    color: #f5f5f5;
+    display: flex;
+    margin: 40px;
+}
+.service-text {
+    padding: 30px 30px;
+    width: 30%;
+}
+.service-icon{
+    align-self: center;
+    font-size: 60px;
+    margin-right: 20px;
+    padding: 20px;
+    border: 3px solid #f5f3f5;
+    border-radius: 50%;
+}
+.service-text h3 {
+    text-transform: uppercase;
+}
+.service-text p {
+    margin-top: 5px;
+}
+.title h2 {
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #474747;
+}
+.title-underline{
+    background: #ad343e;
+    width: 100px;
+    height: 4px;
+    margin: 10px auto;
+}
+.title{
+    padding: 50px 0px;
+}
+.project-center{
+    display: flex;
+    flex-wrap: wrap;
+}
+.project {
+    background:linear-gradient(rgba(0,0.0,0.9),rgba(0,0,0,0.9));
+    overflow: hidden;
+    flex: 0 0 calc(33.33%);
+}
+.project img{
+    width: 100%;
+    display: block;
+    transition: opacity 2s ease, transform 2s ease;
+    height: 100%;
+}
+.project img:hover{
+    opacity: 0.3;
+    cursor: pointer;
+    transform: scale(1.3);
+}
+.about{
+    min-height: 100vh;
+    background-image: url(images/road.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0px;
+}
+.about-card{
+    text-align: center;
+    padding: 60px 40px;
+    background:rgba(255,255,255,0.6);
+    max-width: 50%;
+    margin: 0px auto;
+    border-radius: 50px;
+}
+.about-card h3{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.about-card .fa-car{
+    font-size: 60px;
+    color: #ad343e;
+    margin: 20px 0px;
+}
+.about-card p {
+    line-height: 2;
+}
+.filler{
+    min-height: 60vh;
+    background-image:url(images/bus.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+}
+.contact{
+    min-height: 80vh;
+    background-image: url(images/road.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.contact-card {
+    background: rgba(0, 0, 0, 0.6);
+    flex: 0 0 40%;
+    padding: 40px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 60%;
+}
+form input{
+    margin: 10px 0px;
+}
+form h3 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #ad343e;
+}
+form input,
+form textarea{
+    padding: 5px;
+    border: 1px solid #ad343e;
+}
+input::placeholder,
+textarea::placeholder{
+    text-transform: uppercase;
+    color: #ad343e;
+}
+.form-btn {
+    margin: 20px;
+    font-size: 20px;
+    border-radius: 40px;
+    padding: 5px;
+    background: #ad343e;
+    color: #f5f3f5;
+    border: 1px solid #ffffff;
+}
+.form-btn:hover {
+    background: #46351a;
+    color: #ad343e;
+}
+footer{
+    background: #0d1317;
+    padding: 60px 0px;
+    text-align: center;
+}
+.footer-icons a{
+    display: inline-block;
+    font-size: 30px;
+    margin: 0px 10px 20px 10px;
+    border-radius: 5px;
+    background: #f5f3f5;
+    color: #0d1317;
+    padding: 2px 5px;
+} 
+footer p{
+    color: #f5f3f5;
+    font-size: 20px;
+}
+@media (max-width: 768px){
+    nav {
+        display: flow-root;
+    }
+    .mylogo {
+        justify-content: center;
+    }
+    .nav-container {
+        display: flex;
+        justify-content: center;
+        border-bottom: 0;
+    }
+    .btn {
+        display: flow-root;
+    }
+    .bar{
+        display: flex;
+    }
+    nav ul{
+        display: flow-root;
+        background: rgba(12, 12, 12, 0.80);
+    }
+    .active{
+        display: none;
+    }
+    .mylogo,
+    ul li a{
+        display: flex;
+        justify-content: center;
+    } 
+    .service-text{
+        width:100%; 
+    }
+}
+
+@media (max-width: 480px){
+    .service-text {
+    width: 100%;
+    font-size: 14px;
+    padding: 0;
+    }
+    .about-card p{
+        text-align: justify;
+        font-size: 14px;
+    }
+    .contact-card,
+    .project{
+        flex: 0 0 100%;
+    }
+    ul li a{
+        padding: 10px;
+    }
+} 
+
+
+
+
+
+
+
+
+
+
+
+
