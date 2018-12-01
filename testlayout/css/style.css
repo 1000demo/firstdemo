@@ -1,0 +1,26 @@
+* { 
+	-webkit-box-sizing: border-box; 
+	-moz-box-sizing: border-box; 
+	box-sizing: border-box; 
+}
+.container-fluid{
+    background: url(../images/mainbg2.jpg) center center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-size: cover;
+}
+h2{
+	color: #000;
+}
+.form-sec {
+    width: 50%;
+    margin: 0px auto;
+}
+.form-group {
+    padding: 20px;
+}
+.frmbg{
+	    background: #E5E2D7;
+    padding: 40px 20px;
+    text-align: center;
+}
