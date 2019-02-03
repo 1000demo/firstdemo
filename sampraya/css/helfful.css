@@ -1,0 +1,23 @@
+/*......
+        width, border classes added here 
+............*/
+
+/* percentage width start */
+.w-100{
+	width: 100% !important;
+}
+.w-21 {
+    width: 21%;
+}
+/* percentage width end */
+
+/* pixels width start */
+
+/* pixels width end */
+
+.br-b-1px{
+   border-bottom: 1px solid #333;
+}
+.br-b-2px{
+
+}
