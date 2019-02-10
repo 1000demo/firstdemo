@@ -1,0 +1,39 @@
+/*......
+        all color,bakground-color classes added here 
+............*/
+/*background color started */
+.no-bg{
+	background-color: transparent !important; 
+}
+.bgclr0{
+	background-color: #000; 
+}
+.bgclr1{
+	background-color: #fff; 
+}
+.bgclr2{
+	background-color: #f5f5f5; 
+}
+.bgclr3{
+	background-color: #06294e;
+}
+
+/*background color end */
+
+/* text color started */
+.txtclr0{
+	color: #000;
+}
+.txtclr1{
+	color: #fff;
+}   
+.txtclr2{
+	color: #06294e;
+}
+.txtclr3 {
+    color: #58a3e0;
+}
+.txtclr4{
+	color: #024d9b;
+}
+/* text color ended */
