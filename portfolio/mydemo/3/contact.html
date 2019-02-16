@@ -1,0 +1,225 @@
+<!Doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Travelastic">
+    <meta name="keywords" content="Travelastic">
+    <meta name="author" content="Travelastic">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travelastic</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+          </button>
+          <a class="logo" href="index.html">
+          <img src="images/logo.png" class="logo">
+          </a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="aboutus.html">ABOUT US</a></li>
+            <li><a href="services.html">SERVICES</a></li>
+            <li><a href="portfolio.html">PORTFOLIO</a></li>
+            <li class="border-right"><a href="contact.html">CONTACT</a></li>
+            <li class="lock"><a href="#"><button type="button" class="btn btn-default btn-sm" data-toggle="modal" data-target="#myModal"><i class="fa fa-lock"></i></button></a></li>
+            <!-- Modal -->
+            <div id="myModal" class="modal fade" role="dialog">
+              <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Login to Your Account</h4>
+                  </div>
+                  <div class="modal-body">
+                    <div class="loginmodal-container">
+                      <form>
+                        <input type="text" name="user" placeholder="Username">
+                        <input type="password" name="pass" placeholder="Password">
+                      </form>
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Login</button>
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Sign Up</button> 
+                      <p class="fp"><a href="#">Forget Password</a></p>
+                    </div>
+                  </div>
+                  <div class="modal-footer">    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--close nav-->
+    <section class="map">
+      <div style="overflow:hidden;width:100%;height:300px;resize:none;max-width:100%;">
+        <div id="gmap_display" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Bengaluru,+Karnataka,+India&key=AIzaSyAN0om9mFmy1QN6Wf54tXAowK4eT0ZUPrU"></iframe></div>
+        <a class="google-map-enabler" rel="nofollow" href="http://www.hostingreviews.website/dreamhost-review" id="get-data-for-embed-map">dreamhost reviews</a>
+        <style>#gmap_display img{max-width:none!important;background:none!important;font-size: inherit;}</style>
+      </div>
+      <script src="https://www.hostingreviews.website/google-maps-authorization.js?id=3ee3d969-cecb-024c-64bf-0f70a8ad20da&c=google-map-enabler&u=1463555889" defer="defer" async="async"></script>
+    </section>
+    <section class="contact-us">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4">
+            <div>
+              <h3>Contact Form</h3>
+              <form>
+                <label>First Name</label>
+                <input type="text" class="input-block-level" required="required" placeholder="Your First Name">
+                <label>Last Name</label>
+                <input type="text" class="input-block-level" required="required" placeholder="Your Last Name">
+                <label>Email Address</label>
+                <input type="text" class="input-block-level" required="required" placeholder="Your email address">
+              </form>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="msg">
+                  <label>Message</label>
+                  <textarea name="message" id="message" required="required" class="comment"></textarea>
+                  <button type="submit" class="btn btn-primary btn-large pull-right">Send Message</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <h3>Our Address</h3>
+            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+            <p>
+              <i class="fa fa-map-marker pull-left"></i> 1209 Willow Oaks Lane, New York<br>
+              Lafayette, 1212,  United States
+            </p>
+            <p>
+              <i class="fa fa-envelope"></i> &nbsp;email@example.com
+            </p>
+            <p>
+              <i class="fa fa-phone"></i> &nbsp;+123 45 67 89
+            </p>
+            <p>
+              <i class="fa fa-globe"></i> &nbsp;http://www.shapebootstrap.net
+            </p>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+    <!--close contct us-->
+    <section class="top-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-6">
+            <h4>ADDRESS</h4>
+            <ul class="list-unstyled address">
+              <li><i class="fa fa-home"></i><strong>Address:</strong> 1032 Wayback Lane</li>
+              <li> <em class="fa fa-envelope"></em> <strong>Email: </strong> admin@travelasticcloud.com </li>
+              <li> <em class="fa fa-globe"></em> <strong>Website:</strong> www.travelastic.net</li>
+              <li><i class="fa fa-phone"></i><strong>Toll Free:</strong> 631-409-3105 </li>
+            </ul>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <h4>OUR COMPANY</h4>
+            <ul class="list-unstyled company">
+              <li><i class="fa fa-angle-right"></i><a href="#">About Us</a></li>
+              <li><i class="fa fa-angle-right"></i><a href="#">Support</a></li>
+              <li><i class="fa fa-angle-right"></i><a href="#">Terms of Use</a></li>
+              <li><i class="fa fa-angle-right"></i><a href="#">Privacy Policy</a></li>
+              <li><i class="fa fa-angle-right"></i><a href="#">Copyright</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <h4>ARCHIVES</h4>
+            <ul class="list-unstyled company">
+              <li><i class="fa fa-angle-right"></i><a href="#">December 2012 (1)</a></li>
+              <li><i class="fa fa-angle-right"></i><a href="#">November 2012 (5)</a></li>
+              <li><i class="fa fa-angle-right"></i><a href="#">October 2012 (8)</a></li>
+              <li><i class="fa fa-angle-right"></i><a href="#">September 2012 (10)</a></li>
+              <li><i class="fa fa-angle-right"></i><a href="#">August 2012 (29)</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <h4>FLICKR GALLERY</h4>
+            <div class="row">
+              <div class="col-sm-4 col-xs-3"><img src="images/gallery-01.png" class="gallery-space img-responsive"></div>
+              <div class="col-sm-4 col-xs-3"><img src="images/gallery-02.png" class="gallery-space img-responsive"></div>
+              <div class="col-sm-4 col-xs-3"><img src="images/gallery-03.png" class="gallery-space img-responsive"></div>
+            </div>
+            <div class="row">
+              <div class="col-sm-4 col-xs-3"><img src="images/gallery-01.png" class="gallery-space img-responsive"></div>
+              <div class="col-sm-4 col-xs-3"><img src="images/gallery-02.png" class="gallery-space img-responsive"></div>
+              <div class="col-sm-4 col-xs-3"><img src="images/gallery-03.png" class="gallery-space img-responsive"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--close of top-footer-->
+    <section class="bottom-footer">
+      <div class="container">
+        <div class="row">
+          <div>
+            <div class="col-sm-4">
+              <p class="pull-left">© 2013 ShapeBootstrap. All Rights Reserved. </p>
+            </div>
+            <div class="col-sm-8 pull-left">
+              <ul class="list-unstyled social-icons pull-right">
+                <li><a href="#"><i class="fa fa-facebook fa-2x"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter fa-2x"></i></a></li>
+                <li><a href="#"><i class="fa fa-pinterest fa-2x"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin fa-2x"></i></a></li>
+                <li><a href="#"><i class="fa fa-google-plus fa-2x"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--close bottom-footer-->
+    <div></div>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!--carousel script start-->
+    <script>
+      $(document).ready(function(){
+          // Activate Carousel
+          $("#myCarousel").carousel();
+          
+          // Enable Carousel Indicators
+          $(".item1").click(function(){
+              $("#myCarousel").carousel(0);
+          });
+          $(".item2").click(function(){
+              $("#myCarousel").carousel(1);
+          });
+          $(".item3").click(function(){
+              $("#myCarousel").carousel(2);
+          });
+          $(".item4").click(function(){
+              $("#myCarousel").carousel(3);
+          });
+          
+          // Enable Carousel Controls
+          $(".left").click(function(){
+              $("#myCarousel").carousel("prev");
+          });
+          $(".right").click(function(){
+              $("#myCarousel").carousel("next");
+          });
+      });
+    </script><!--carousel script end-->
+  </body>
+</html>

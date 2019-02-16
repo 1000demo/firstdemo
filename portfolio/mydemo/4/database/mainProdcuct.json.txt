@@ -1,0 +1,12 @@
+{
+	"products" : [
+
+		{
+			"mainImagePath": "./image/sarees/sarees1.jpg"
+		},
+		{},
+		{}
+	]	
+			
+
+}

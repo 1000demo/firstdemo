@@ -1,0 +1,391 @@
+body {
+     font-family:Arial, Helvetica, Sans-Serif;
+     margin:0;
+     padding:0;
+     font-size: 14px;
+     color:#000000;
+}
+ a:hover{
+     text-decoration: none;
+}
+ .logo p {
+     margin: 0;
+     padding: 0;
+}
+ .at.navbar-inverse {
+     background-color: #fff;
+     border: 0;
+}
+ .at.navbar-inverse ul li a{
+     color: #afbd21;
+     text-decoration: none;
+     padding: 15px 5px;
+}
+ .at.navbar-inverse ul li a:hover{
+     color: #afbd21;
+}
+ .at.navbar-inverse ul li a span {
+     margin-left: 5px;
+}
+ .at-menu{
+     margin-top: 10px;
+}
+ .logo{
+     color: #000;
+}
+ .subtext {
+     clear: right;
+     padding-right: 20px;
+}
+ .line img {
+     width: 100%;
+}
+ .container-fluid.main-outer{
+     width: 1280px;
+     margin-top: 15px;
+}
+ .at-ourter{
+     background: url(../images/bg_slide_1.png);
+     height: 420px;
+     background-size: 100%;
+     background-repeat: no-repeat;
+}
+ .banner-content {
+     width: 40%;
+     float: right;
+     margin: 50px 0 15px 0px;
+}
+ .banner-inner {
+     float: left;
+     margin-left: 15px;
+}
+ .card {
+     float: left;
+}
+ .card img {
+     border: 2px solid #8d8d8d;
+     border-radius: 5px;
+     width: 150px;
+}
+ .card-text {
+     float: left;
+     margin: 15px 0px 0px 5px;
+}
+ .card-text img {
+     max-width: 135px;
+     width: 100%;
+}
+ .card-text p {
+     margin: 0;
+}
+ .main-text {
+     float: left;
+     margin-top: 10px;
+}
+ .copay {
+     font-size: 25px;
+     font-weight: bold;
+     color: #fff;
+     text-shadow: 0 0 3px #9a9494;
+}
+ .savetext {
+     margin: 0;
+     font-size: 20px;
+     font-weight: bold;
+}
+ .savetwo{
+     font-weight: bold;
+     margin:0px;
+     padding-right: 70px;
+}
+ .main-content{
+     background-color: #fff;
+     width: 100%;
+     margin: 0px auto;
+     padding: 15px 54px 15px;
+     text-align: left;
+     position: relative;
+     bottom: 92px;
+}
+ .offer{
+     font-size: 18px;
+     font-weight: bold;
+}
+ .all-text p{
+}
+ .text1 {
+     color: #003c6d;
+     font-weight: bold;
+}
+ .text2{
+     color: #000;
+     font-size: 13px;
+}
+ .at-buttons {
+     margin: 0px auto;
+     text-align: center;
+}
+ .at-buttons .btn{
+     width: 340px;
+     height: 65px;
+     color: #fff;
+     font-size: 20px;
+}
+ .b1{
+     background-color: #00a6cf;
+}
+ .b2{
+     background-color: #a8b50a;
+}
+ .b3{
+     background-color: #7d4199;
+}
+ .elig{
+     background-color: #003c6d;
+     padding: 10px 15px;
+     margin-top: 10px;
+}
+ .elig h4{
+     color: #a99f35;
+     font-size: 18px;
+     font-weight: bold;
+}
+ .ans{
+     color: #fff;
+     font-size: 18px;
+     padding-bottom: 15px;
+}
+ .treat {
+     padding-left: 15px;
+}
+ .treat ul {
+     color: #fff;
+}
+ .treat ul li a{
+     color: #fff;
+}
+ .treat p {
+     color: #fff;
+     font-size: 14px;
+     font-weight: bold;
+}
+ .uses h4{
+     font-weight: bold;
+     font-size: 14px;
+}
+/*hidediv csss */
+ #hidediv{
+     -webkit-box-shadow: 3px 3px 5px 3px black;
+     -moz-box-shadow: 3px 3px 5px 3px black;
+     box-shadow: 3px 3px 5px 3px black;
+     background-color: white;
+     height: 90px;
+}
+ .hideinner{
+     max-width: 1040px;
+     margin: 0 auto;
+}
+ .hide-ftext{
+     color: #56397e;
+     font-size: 26px;
+     line-height: 26px;
+     font-family: "Avant Garde Demi condensed";
+     padding: 10px 0px;
+}
+ .hide-seemore{
+     float: right;
+     cursor: pointer;
+     font-size: 24px;
+     font-family: "Avant Garde Demi condensed";
+     margin-right: -30px;
+     margin-top: 0px;
+     color: #567b3c;
+}
+ .hideinner p{
+     font-size: 14px;
+     color: #4a4a49;
+     font-family: "Avant Garde Book";
+     line-height: 18px;
+     margin-bottom: 5px;
+}
+/* */
+ @media only screen and (max-width: 1024px){
+     .at-buttons .btn{
+         width: 274px;
+    }
+     .container-fluid.main-outer{
+         max-width: 100%;
+    }
+     .at-ourter{
+         background-size: auto;
+    }
+}
+ @media only screen and (max-width: 768px){
+     .hide-ftext{
+         font-size: 12px;
+         line-height: 20px;
+    }
+     #hidediv{
+         height: 150px;
+    }
+     .hideinner {
+         max-width: 100%;
+    }
+     .hide-ftext{
+         text-align: center;
+         font-size: 12px;
+    }
+     .hide-seemore{
+         float: none;
+         font-size: 14px;
+         font-weight: bold;
+    }
+     .at-buttons .btn{
+         width: 100%;
+    }
+     .at-ourter{
+         height: 400px;
+         max-width: 100%;
+         background-size: auto;
+         background-repeat: no-repeat;
+         max-height: 100%;
+    }
+     .container-fluid.main-outer{
+         max-width: 100%;
+    }
+     .container-fluid.main-outer .container{
+         width: 100%;
+    }
+     .main-content{
+         padding: 15px 10px 15px 
+    }
+     .at-buttons .btn{
+         margin-bottom: 5px;
+    }
+     .banner-content{
+         width: 50% 
+    }
+}
+ @media only screen and (max-width: 736px){
+     .at .navbar-toggle:hover, .at .navbar-toggle:focus, .at .navbar-toggle {
+         background-color: #3a6f8f;
+         border: 1px solid #3a6f8f;
+    }
+     .at.navbar-inverse ul li a span{
+         display: none;
+    }
+     .at .navbar-collapse{
+         border-top: 0px;
+         float: left;
+         clear: left;
+    }
+     .at.navbar-inverse ul li a{
+         padding: 10px 0px;
+    }
+     .size, .print{
+         display: none;
+    }
+     .at .navbar-header{
+         float: right;
+    }
+     .subtext {
+         padding-right:0px;
+    }
+     .banner-content {
+         width: 100%;
+    }
+     .card-text p {
+         width: 140px;
+    }
+     .card-text {
+         margin: 0px 0px 0px 5px;
+         line-height: 40px;
+    }
+     .savetwo{
+         padding: 0px 50px;
+    }
+     .main-text{
+         float: none;
+         text-align: center;
+    }
+     .main-content{
+         width: 100%;
+         padding: 0px 0px 0px;
+    }
+     .container-fluid.main-outer {
+         max-width: 100%;
+    }
+     .card-text {
+         line-height: 33px;
+    }
+     .at-ourter {
+         height: 210px;
+         max-width: 100%;
+         background-size: auto;
+         background-repeat: no-repeat;
+         max-height: 100%;
+    }
+     .main-text {
+         float: left;
+         text-align: center;
+         margin: 70px 0px 90px;
+    }
+     .banner-inner {
+         float: right;
+    }
+     .at-buttons .btn{
+         width: 100%;
+         margin-bottom: 5px;
+    }
+     .uses ul{
+         padding-left: 16px;
+    }
+     .note,.ans,.all-text p, .text1,.treat,.uses {
+         font-size: 12px;
+    }
+     .offer {
+         font-size: 15px;
+    }
+}
+ @media only screen and (max-width: 480px){
+     #hidediv {
+         height: 260px;
+         padding: 10px;
+    }
+     .banner-inner {
+         margin-bottom: 20px;
+    }
+     .savetext{
+         padding: 0px 23px;
+    }
+     .banner-content {
+         width: 100%;
+         margin: 30px 0 15px 0px;
+    }
+     .at-ourter{
+         height: 190px;
+         background-size: auto;
+         background-repeat: no-repeat;
+         max-height: 100%;
+    }
+     .main-text {
+         float: none;
+         text-align: center;
+    }
+     .card-text {
+         line-height: 33px;
+    }
+     .card-text p {
+         width: 140px;
+    }
+     .card-text p {
+         width: 140px;
+    }
+     .main-text {
+         float: none;
+         text-align: center;
+    }
+     .savetwo {
+         padding: 0;
+    }
+}

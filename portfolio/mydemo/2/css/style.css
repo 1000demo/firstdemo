@@ -1,0 +1,725 @@
+ .composebtn{
+     background-color: #37c936;
+     width: 180px;
+     height: 40px;
+     border: 0;
+     color: #fff;
+}
+ .composebtn-mob{
+     background-color: #37c936;
+     width: 180px;
+     height: 45px;
+     border: 0;
+     color: #fff;
+}
+ .composebtn span {
+     padding: 5px;
+     vertical-align: middle;
+}
+ .userlist{
+     background-color: #fff;
+     margin: 0px auto;
+     border-bottom: 1px solid #ededed;
+     height: 740px;
+}
+ .userlist p {
+     text-align: left;
+     font-size: 16px;
+     font-weight: bold;
+     color: #6e6f74;
+}
+ #icon {
+     position: relative;
+     float: left;
+     bottom: 22px;
+     left: 10px;
+     color: #d4d4d4;
+}
+ input[type=search] {
+     -webkit-appearance: none;
+     padding: 0px 30px;
+}
+ .comment1{
+     height: 120px;
+     padding: 12px 20px 0px 20px;
+     background-color: #fff;
+     box-shadow: 0px 0px 5px 4px #f0f1f3;
+}
+ .searchbtn {
+     background-color: #fff;
+     border: 1px solid #d4d4d4;
+     text-align: left;
+     width: 200px;
+     height: 30px;
+     display: block;
+     border-radius: 3px;
+     color: #d4d4d4;
+     padding-left: 14px;
+}
+ .userlist-outer{
+     padding-left: 0px;
+     padding-right: 0px;
+     width: 20%;
+}
+ .user-profile {
+     float: left;
+}
+ .user-profile img {
+     width: 70px;
+     height: 70px;
+}
+ .user-name {
+     float: left;
+     margin-left: 20px;
+     margin-top: 15px;
+     text-align: left;
+}
+ .user-name p {
+     margin: 0;
+}
+ .user-name p:nth-child(1) {
+     font-size: 14px;
+     color: #4c4f56;
+}
+ .user-name p:nth-child(2) {
+     font-size: 12px;
+     color: #9aa1a7;
+}
+ .user {
+     padding: 10px 20px;
+     float: left;
+}
+ .user2 {
+     float: right;
+     padding: 30px 20px;
+}
+ .user2 img {
+     margin: 0px 5px;
+}
+ .dots{
+     vertical-align: super;
+}
+ .outersection {
+     padding: 10px 0px 10px 10px;
+     background-color: #f6f7fb;
+     margin-top: 0px;
+     float: left;
+}
+ .searchbtn i.fa.fa-search {
+     padding-right: 5px;
+}
+ .tasksection div p img{
+     -webkit-transform: rotate(90deg);
+     margin-left: 15px;
+}
+ .tasksection {
+     float: left;
+     line-height: 1.8;
+     font-size: 13px;
+     padding: 0px 20px;
+     margin: 0;
+     text-align: left;
+     width: 100%;
+     display: block;
+}
+ .col-md-3.tasksection1 {
+     width: 18%;
+     padding: 20px 0px 0px;
+     background: #fff;
+}
+ .col-md-6.chatsection {
+     width: 62%;
+}
+ .chat-type {
+     font-size: 13px;
+     margin: 15px 0px;
+     width: 100%;
+     color: #787b8c;
+     float: left;
+}
+ .peoplechat {
+     float: left;
+     border-bottom: 1px solid #2d69eb;
+}
+ .groupchat {
+     float: right;
+}
+ .userphoto,.usertext,.usertime {
+     float: left;
+     text-align: left;
+     line-height: 1;
+}
+ .userphoto img {
+     width: 35px;
+     height: 35px;
+     margin: 0px 5px 0px 0px;
+}
+ .user-profile2 {
+     padding: 15px 13px 10px;
+     float: left;
+     width: 100%;
+     text-align: left;
+     border-bottom: 1px solid #ededed;
+}
+ .usertext {
+     width: 61%;
+     float: left;
+     text-align: left;
+     padding-left: 5px;
+}
+ .usertext p {
+     font-size: 12px;
+     margin-bottom: 0;
+}
+ .usertime {
+     width: 16%;
+     float: right;
+     text-align: right;
+     padding: 1px 0px 0px;
+     margin: 0;
+}
+ .usertime p {
+     font-size: 10px;
+     margin-bottom: 0;
+     color: #9d9ea2;
+     font-weight: normal;
+}
+ .usertext p:nth-child(1) {
+     color: #383c45;
+}
+ .usertext p:nth-child(2) {
+     font-size: 10px;
+     color: #9d9ea2;
+     font-weight: normal;
+}
+ .demo {
+     border-top: 1px solid #ededed;
+     width: 100%;
+     float: left;
+     margin: 10px 0px 0px;
+}
+ .userlistinner {
+     padding: 20px 13px;
+}
+ .user-profile2.active {
+     background-color: #f6f7fb;
+}
+ .onlinesign{
+     float: left;
+     display: inline;
+     width: 8px;
+     height: 8px;
+     border-radius: 50%;
+     position: relative;
+     top: -9px;
+     left: 25px;
+     font-size: 0;
+     margin: 0px;
+     background-color: #39c838;
+     border: 1px solid #39c838;
+}
+ .onlinesign2{
+     float: left;
+     display: inline;
+     width: 8px;
+     height: 8px;
+     border-radius: 50%;
+     position: relative;
+     top: -9px;
+     left: 25px;
+     font-size: 0;
+     margin: 0px;
+     background-color: #b6b6b6;
+     border: 1px solid #b6b6b6;
+}
+ .commentreply-section{
+     float: left;
+     padding: 0px 50px 0px;
+     text-align: left;
+     width: 100%;
+     background-color: #fff;
+     border: 1px solid #f4f5f9;
+}
+ .commentreply-section .text{
+     color: #b7b7b7;
+     font-size: 14px;
+     margin-top:5px;
+     border: 0;
+     padding: 30px 0px;
+     width: 100%;
+     font-weight: normal;
+}
+ input.text::placeholder {
+     font-weight: normal;
+}
+ .commentreply-section .line{
+     width: 100%;
+     background-color: #e6e7ec;
+     color: transparent;
+     height: 1px;
+     margin: 0px 0px 30px;
+}
+ .buttons {
+     width: 100%;
+     display: block;
+     float: left;
+     padding-bottom: 25px;
+}
+ .buttons-icon {
+     float: left;
+}
+ .buttons-icon span{
+     padding: 0px 5px;
+     color: #b7b7b7;
+}
+ .buttons-replay {
+     float: right;
+}
+ .buttons-replay button {
+     background-color: #4c84ff;
+     width: 90px;
+     height: 35px;
+     outline: 0;
+     border: 1px solid #4c84ff;
+     border-radius: 4px;
+     color: #fff;
+}
+ .comment2{
+     padding: 15px 40px 0px;
+     background-color: #f6f7fb;
+     width: 100%;
+     float: left;
+}
+ .send-cmt {
+     width: 100%;
+     display: block;
+     float: left;
+}
+ .send-cmt img {
+     width: 30px;
+     height: 30px;
+     float: left;
+}
+ .sender-cmttext{
+     width: 100%;
+     display: block;
+     float: left;
+     background-color: #ffffff;
+     margin: 0px 0px 10px;
+}
+ .sender-name {
+     float: left;
+     text-align: left;
+     font-size: 12px;
+     margin: 0px 13px;
+     font-weight: bold;
+}
+ .sender-time {
+     text-align: left;
+     float: left;
+     font-size: 12px;
+     color: #9aa1a7;
+}
+/* CSS talk bubble */
+ .talk-bubble {
+     margin: 0;
+     display: block;
+     position: relative;
+     width: 315px;
+     height: auto;
+     background-color: #fff;
+     clear: both;
+     left: 45px;
+     top: 0px;
+     float: left;
+     margin-bottom: 0px;
+     border-radius: 5px;
+     text-align: left;
+     padding: 0px 20px;
+}
+ .tri-right.btm-right:after{
+     top: -12px;
+     content: ' ';
+     position: absolute;
+     width: 0;
+     height: 0;
+     left: 0px;
+     right: 0px;
+     border: 12px solid;
+     border-color: #fff #fff transparent transparent;
+     -webkit-transform: rotate(90deg);
+     -moz-transform: rotate(90deg);
+     -o-transform: rotate(90deg);
+     -ms-transform: rotate(90deg);
+     transform: rotate(180deg);
+}
+/* talk bubble contents */
+ .talktext{
+     padding: 13px 0px;
+     background: #fff;
+     width: 100%;
+     display: block;
+     border-radius: 0px 4px 4px 4px;
+     float: left;
+     font-size: 13px;
+}
+ .talktext p{
+    /* remove webkit p margins */
+     -webkit-margin-before: 0em;
+     -webkit-margin-after: 0em;
+}
+ .talktext input[type="text"] {
+     padding: 10px 0px;
+     border: 0;
+     width: auto;
+}
+ .talktext input[type="text"]::placeholder{
+     color: #37c938;
+     font-weight: normal;
+}
+ .comment3{
+     float: right;
+     padding-right: 40px;
+}
+ .comment3 .send-cmt, .comment3 .send-cmt img , .comment3 .sender-name, .comment3 .sender-time{
+     float: right;
+     text-align: right;
+}
+ .comment3 .send-cmt{
+     margin-top: 15px;
+}
+ .comment3 .talk-bubble{
+     margin-right: 85px;
+}
+ .comment3 .tri-right.btm-right:after{
+     top: -12px;
+     left: 92.30%;
+     -webkit-transform: rotate(90deg);
+     -moz-transform: rotate(90deg);
+     -o-transform: rotate(90deg);
+     -ms-transform: rotate(90deg);
+     transform: rotate(88deg);
+     border-color: #4c84ff #4c84ff transparent transparent;
+}
+ .comment3 .talktext, .comment3 .talk-bubble{
+     background-color: #4c84ff;
+}
+ .comment3 .talktext p{
+     color: #fff;
+}
+ .comment3 span.sender-time{
+     line-height: 1;
+}
+ .user-profile2:last-child {
+     border-bottom: 0;
+}
+ p.cmgtask{
+     float: left;
+     width: 70%;
+}
+ p.dotstask{
+     float: right;
+     width: 30%;
+     text-align: right;
+}
+ .dotstask img{
+     -ms-transform: rotate(180deg);
+    /* IE 9 */
+     -webkit-transform: rotate(180deg);
+    /* Safari */
+     transform: rotate(90deg);
+}
+ .date{
+     padding: 0px 20px;
+}
+ .date1{
+     text-align: left;
+     float: left;
+}
+ span.date1 img{
+     width: 35px;
+}
+ .date2{
+     color: #787b8e;
+     text-align: left;
+     font-size: 12px;
+     float: left;
+     line-height: 2;
+}
+ .task-list{
+     padding: 0;
+     float: left;
+     width: 100%;
+     text-align: left;
+     padding: 10px 20px;
+}
+ .task-list p span{
+     font-size: 12px;
+     color: #383c47;
+}
+ .task-list p span img{
+     width: 15px;
+     vertical-align: sub;
+     margin-right:5px;
+}
+ ul.nav.compose-menu li a {
+     color: #757c8e;
+     text-align: left;
+     padding: 5px 0px;
+     border: 3px solid transparent;
+}
+ ul.nav.compose-menu li a img{
+     margin: 0px 15px 0px 2px;
+}
+ .compose-menu .nav>li>a:focus, .compose-menu.nav>li>a:hover{
+     background-color: #eaf0fe;
+     color: #2e69eb;
+     border-left: 3px solid #2e69eb;
+}
+ ul.nav.compose-menu>li>a:hover, ul.nav.compose-menu>li>a:focus{
+     background-color: #eaf0fe;
+}
+/* ac-setting page css */
+ .ac-setting{
+     padding: 10px 10px 40px 10px;
+     background-color: #f6f7fb;
+     margin-top: 0px;
+     float: left;
+}
+ .submit{
+     width: 100px;
+     height: 40px;
+     background-color: #2d69eb;
+     border-radius: 3px;
+     color: #fff;
+     border: 1px solid #2d69eb;
+     float: left;
+     margin-top: 10px;
+}
+ .submit-mob{
+     display: none;
+}
+ .ac-setting label{
+     color: #99a0a8;
+     font-size: 13px;
+     font-weight: normal;
+     float: left;
+}
+ .pwd input[type="text"], .pwd input[type="password"]{
+     float: left;
+     padding: 5px 10px;
+     margin-bottom: 10px;
+     clear: both;
+     border-radius: 3px;
+     border: 2px solid #eff0f1;
+     font-weight: bold;
+     width: 200px;
+}
+ .text{
+     color: #4c4f58;
+     margin-top: 20px;
+     font-weight: bold;
+     font-weight: bold;
+}
+ .ac-pict img{
+     margin-top: 20px;
+}
+ ::placeholder {
+    /* Chrome/Opera/Safari */
+     font-weight: bold;
+}
+ .change-email{
+     float: left;
+     padding: 5px 15px;
+}
+ .hidedesktp{
+     display: none;
+}
+ .task-list.bottomspace{
+     padding-bottom: 352px;
+}
+ .toprmenu{
+     float: right;
+     margin: 0px 0px 0px;
+     width: 195px;
+}
+ .toprmenu ul{
+     margin: 0;
+}
+ .toprmenu ul li {
+     list-style: none;
+     display: inline-block;
+     margin-top: 0;
+     margin-left: 7px;
+     padding: 10px 0px;
+}
+ .toprmenu ul li a img{
+     width: 26px;
+}
+ .barline{
+     border-left: 1px solid #d4d4d4;
+     border-width: 1px;
+}
+ span.chk {
+     margin-top: 0;
+     vertical-align: text-bottom;
+     padding-left: 5px;
+}
+ .ac-inner input[type="text"]::placeholder {
+     font-weight: normal;
+     color: #000;
+}
+ @media only screen and (max-width: 736px){
+     .ac-inner h4 {
+         text-align: center;
+    }
+     .task-list.bottomspace {
+         padding-bottom: 0px;
+    }
+     .toprmenu {
+         float: none;
+         margin: 0px auto;
+         display: none;
+    }
+     .composebtn-mob img{
+         padding: 0px 5px;
+         vertical-align: bottom;
+    }
+     .hidedesktp{
+         display: block;
+    }
+     .composebtn{
+         display: none;
+    }
+     .composebtn-mob{
+         text-align: center;
+         margin: 0px auto;
+         float: none;
+    }
+     ul.nav.compose-menu li a{
+         text-align: center;
+    }
+     .userlist-outer{
+         width: 100%;
+    }
+     .col-md-6.chatsection {
+         width: 100%;
+         margin-top: 10px;
+    }
+     .firstnav{
+         margin: 0;
+    }
+     .comment1{
+         padding: 0px 5px 0px 5px;
+         height: 150px;
+    }
+     .comment2{
+         padding: 20px 0px 20px;
+    }
+     .user {
+         padding: 10px 0px;
+         width: 50%;
+    }
+     .user2 {
+         padding: 30px 0px;
+         width: 50%;
+    }
+     .user-name{
+         margin-left: 0;
+         margin-top: 5px;
+    }
+     .user-name p:nth-child(1){
+         float: left;
+         width: 100%;
+    }
+     .talk-bubble{
+         padding: 0px 5px;
+         width: 90%;
+    }
+     .col-md-3.tasksection1{
+         width: 100%;
+         float: left;
+    }
+     .comment3{
+         float: none;
+         padding: 0px;
+    }
+     .comment3 .tri-right.btm-right:after{
+         left: 95%;
+    }
+     .comment3 .talk-bubble{
+         margin: 10px 0px 0px 0px;
+    }
+     .commentreply-section{
+         margin: 0px 0px 15px;
+    }
+     .outersection{
+         margin-top: 0px;
+         padding: 10px 10px 10px 10px 
+    }
+     .ac-setting{
+         width: 100%;
+         margin-top: 0px;
+    }
+     .ac-setting label{
+         width: 100%;
+    }
+     .ac-setting label, .submit{
+         clear: left;
+    }
+     .info-mob{
+         display: none;
+    }
+     .change-email{
+         clear: left;
+         text-align: left;
+         padding: 0;
+    }
+     .formob{
+         float: left;
+         width: 50%;
+         margin-top: 20px;
+         clear: left;
+    }
+     .formob2{
+         float: right;
+         width: 50%;
+    }
+     .submit-mob{
+         width: 100px;
+         height: 40px;
+         background-color: #2d69eb;
+         border-radius: 3px;
+         color: #fff;
+         border: 1px solid #2d69eb;
+         float: left;
+         margin-top: 10px;
+         display: block;
+    }
+     .submit{
+         display: none;
+    }
+}
+ @media only screen and (max-width: 480px){
+     .outersection{
+         padding: 10px 10px 30px 10px;
+    }
+     .ac-setting{
+         padding: 10px 10px 0px 10px;
+    }
+     .talk-bubble {
+         padding: 0px 5px;
+         width: 250px;
+    }
+     .comment3 .tri-right.btm-right:after {
+         left: 90.50%;
+    }
+     .pwd input[type="password"], .pwd input[type="text"]{
+         width: 90%;
+    }
+     .ac-inner{
+         padding: 20px 20px 50px 20px !important;
+         margin-bottom: 30px;
+    }
+}
+ 

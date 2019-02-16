@@ -1,0 +1,372 @@
+
+<!Doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Travelastic">
+    <meta name="keywords" content="Travelastic">
+    <meta name="author" content="Travelastic">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travelastic</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>                        
+              </button>
+              <a class="logo" href="index.html">
+              <img src="images/logo.png" class="logo">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="blog.html" target="_blank">BLOG</a></li>
+                <li><a href="contact.html" target="_blank">CONTACT US</a></li>
+                <!-- Modal -->
+                <div id="myModal" class="modal fade" role="dialog">
+                  <div class="modal-dialog">
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Login to Your Account</h4>
+                      </div>
+                      <div class="modal-body">
+                        <div class="loginmodal-container">
+                          <form>
+                            <input type="text" name="user" placeholder="Username">
+                            <input type="password" name="pass" placeholder="Password">
+                          </form>
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Login</button>
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Sign Up</button> 
+                          <p class="fp"><a href="#">Forget Password</a></p>
+                        </div>
+                      </div>
+                      <div class="modal-footer">    
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </ul>
+            </div>
+          </div>
+        </nav>
+    <!--close nav-->
+    <div class="container-fluid slider-start">
+      <div id="slider1_container" style="visibility: hidden; position: relative; margin:0px auto; width: 1140px; height: 442px; overflow: hidden;">
+        <!-- Loading Screen -->
+        <div u="loading" style="position: absolute; top: 0px; left: 0px;">
+          <div style="filter: alpha(opacity=70); opacity:0.7; position: absolute; display: block;
+            background-color: #000; top: 0px; left: 0px;width: 100%; height:100%;">
+          </div>
+          <div style="position: absolute; display: block; background: url(img/loading.gif) no-repeat center center;
+            top: 0px; left: 0px;width: 100%;height:100%;">
+          </div>
+        </div>
+        <!-- Slides Container -->
+        <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 12px; width: 1140px; height: 442px;
+          overflow: hidden;">
+          <div>
+            <img u="image" src2="img/home/01.jpg" />
+          </div>
+          <div>
+            <img u="image" src2="img/home/02.jpg" />
+          </div>
+          <div>
+            <img u="image" src2="img/home/03.jpg" />
+          </div>
+          <div>
+            <img u="image" src2="img/home/04.jpg" />
+          </div>
+          <div>
+            <img u="image" src2="img/home/05.jpg" />
+          </div>
+          <div>
+            <img u="image" src2="img/home/06.jpg" />
+          </div>
+        </div>
+        <!--#region Bullet Navigator Skin Begin -->
+        <!-- Help: http://www.jssor.com/tutorial/set-bullet-navigator.html -->
+        <style>
+          .jssorb05 {
+          position: absolute;
+          }
+          .jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {
+          position: absolute;
+          /* size of bullet elment */
+          width: 16px;
+          height: 16px;
+          background: url(img/b05.png) no-repeat;
+          overflow: hidden;
+          cursor: pointer;
+          }
+          .jssorb05 div { background-position: -7px -7px; }
+          .jssorb05 div:hover, .jssorb05 .av:hover { background-position: -37px -7px; }
+          .jssorb05 .av { background-position: -67px -7px; }
+          .jssorb05 .dn, .jssorb05 .dn:hover { background-position: -97px -7px; }
+        </style>
+        <!-- bullet navigator container -->
+        <div u="navigator" class="jssorb05" style="bottom: 16px; right: 6px;">
+          <!-- bullet navigator item prototype -->
+          <div u="prototype"></div>
+        </div>
+        <style>
+          .jssora11l, .jssora11r {
+          display: block;
+          position: absolute;
+          /* size of arrow element */
+          width: 37px;
+          height: 37px;
+          cursor: pointer;
+          background: url(img/a11.png) no-repeat;
+          overflow: hidden;
+          }
+          .jssora11l { background-position: -11px -41px; }
+          .jssora11r { background-position: -71px -41px; }
+          .jssora11l:hover { background-position: -131px -41px; }
+          .jssora11r:hover { background-position: -191px -41px; }
+          .jssora11l.jssora11ldn { background-position: -251px -41px; }
+          .jssora11r.jssora11rdn { background-position: -311px -41px; }
+        </style>
+        <!-- Arrow Left -->
+        <span u="arrowleft" class="jssora11l" style="top: 123px; left: 8px;">
+        </span>
+        <!-- Arrow Right -->
+        <span u="arrowright" class="jssora11r" style="top: 123px; right: 8px;">
+        </span>
+        <!--#endregion Arrow Navigator Skin End -->
+        <a style="display: none" href="http://www.jssor.com">Bootstrap Carousel</a>
+      </div>
+      <!-- Jssor Slider End -->
+    </div>
+    </div>
+    </div><!-- /.container -->
+    <!--close carousel class-->
+    <div class="container">
+      <div class="row">
+        <section class="blog">
+          <div class="col-sm-8">
+          <p>
+            <img src="images/tt.jpg"/>
+          </p>
+            <h4>A Lot Of Traveling Turns You Into A Storyteller</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu nisi sit amet dui pharetra aliquam. Nunc mattis orci atlor em aliquet, ut lacinia risus maximus. Aliquam elit tellus, scelerisque eget tellus at, convallis condimentum lectus iumusu. Aliquam suscipit ante a est dignissim tempor. Curabitur cursus auctor urna vitae pellentesque. Nunc ut mattis metus. Sed in tortor mauris. Nunc cursus metus sit amet urna consectetur, vitae imperdiet dolor elementum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed sed lorem nec felis ultrices scelerisque sit ametus ullamcorper dolor.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu nisi sit amet dui pharetra aliquam. Nunc mattis orci atlor em aliquet, ut lacinia risus maximus. Aliquam elit tellus, scelerisque eget tellus at, convallis condimentum lectus iumusu. Aliquam suscipit ante a est dignissim tempor. Curabitur cursus auctor urna vitae pellentesque. Nunc ut mattis metus. Sed in tortor mauris. Nunc cursus metus sit amet urna consectetur, vitae imperdiet dolor elementum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed sed lorem nec felis ultrices scelerisque sit ametus ullamcorper dolor.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu nisi sit amet dui pharetra aliquam. Nunc mattis orci atlor em aliquet, ut lacinia risus maximus. Aliquam elit tellus, scelerisque eget tellus at, convallis condimentum lectus iumusu. Aliquam suscipit ante a est dignissim tempor. Curabitur cursus auctor urna vitae pellentesque. Nunc ut mattis metus. Sed in tortor mauris. Nunc cursus metus sit amet urna consectetur, vitae imperdiet dolor elementum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed sed lorem nec felis ultrices scelerisque sit ametus ullamcorper dolor.</p>
+            <p><i class="glyphicon glyphicon-calendar"></i> April 19, 2018</p>
+          </div>
+          <div class="col-sm-4">
+                      <div class="row">
+                                <div class="col-sm-12">
+                                  <div>
+                                    <h3>Post a Comment</h3>
+                                    <form>
+                                      <label>First Name</label>
+                                      <input type="text" class="input-block-level" required="required" placeholder="Your First Name">
+                                      <label>Last Name</label>
+                                      <input type="text" class="input-block-level" required="required" placeholder="Your Last Name">
+                                      <label>Email Address</label>
+                                      <input type="text" class="input-block-level" required="required" placeholder="Your email address">
+                                    </form>
+                                  </div>
+                                </div>
+                                <div class="col-sm-12">
+                                  <div class="row">
+                                    <div class="col-sm-12">
+                                      <div class="msg">
+                                        <label>Message</label>
+                                        <textarea name="message" id="message" required="required" class="comment"></textarea>
+                                        <button type="submit" class="btn btn-primary btn-large pull-right">Send Message</button>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                    </div>
+        </section>
+        <!--close free-trial-->
+      </div>
+    </div>
+    <!--close container--> 
+    <section class="top-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-6">
+            <h4>ADDRESS</h4>
+            <ul class="list-unstyled address">
+              <li><i class="fa fa-home"></i><strong>Address:</strong> 1032 Wayback Lane</li>
+              <li> <em class="fa fa-envelope"></em> <strong>Email: </strong> admin@travelasticcloud.com </li>
+              <li> <em class="fa fa-globe"></em> <strong>Website:</strong> www.travelastic.net</li>
+              <li><i class="fa fa-phone"></i><strong>Toll Free:</strong> 631-409-3105 </li>
+            </ul>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <h4>OUR COMPANY</h4>
+            <ul class="list-unstyled company">
+              <li><i class="fa fa-angle-right"></i><a href="#">About Us</a></li>
+              <li><i class="fa fa-angle-right"></i><a href="#">Support</a></li>
+              <li><i class="fa fa-angle-right"></i><a href="#">Terms of Use</a></li>
+              <li><i class="fa fa-angle-right"></i><a href="#">Privacy Policy</a></li>
+              <li><i class="fa fa-angle-right"></i><a href="#">Copyright</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <h4>Blog Post</h4>
+            <ul class="list-unstyled company">
+              <li><i class="fa fa-angle-right"></i><a href="#">December 2012 (1)</a></li>
+              <li><i class="fa fa-angle-right"></i><a href="#">November 2012 (5)</a></li>
+              <li><i class="fa fa-angle-right"></i><a href="#">October 2012 (8)</a></li>
+              <li><i class="fa fa-angle-right"></i><a href="#">September 2012 (10)</a></li>
+              <li><i class="fa fa-angle-right"></i><a href="#">August 2012 (29)</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <h4>GALLERY</h4>
+            <div class="row">
+              <div class="col-sm-4 col-xs-3"><img src="images/feature1.jpg" class="gallery-space img-responsive"></div>
+              <div class="col-sm-4 col-xs-3"><img src="images/feature1.jpg" class="gallery-space img-responsive"></div>
+              <div class="col-sm-4 col-xs-3"><img src="images/feature1.jpg" class="gallery-space img-responsive"></div>
+            </div>
+            <div class="row">
+              <div class="col-sm-4 col-xs-3"><img src="images/feature1.jpg" class="gallery-space img-responsive"></div>
+              <div class="col-sm-4 col-xs-3"><img src="images/feature1.jpg" class="gallery-space img-responsive"></div>
+              <div class="col-sm-4 col-xs-3"><img src="images/feature1.jpg" class="gallery-space img-responsive"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--close of top-footer-->
+    <section class="bottom-footer">
+      <div class="container">
+        <div class="row">
+          <div>
+            <div class="col-sm-4">
+              <p class="pull-left">© 2018 Travelastic. All Rights Reserved. </p>
+            </div>
+            <div class="col-sm-8 pull-left">
+              <ul class="list-unstyled social-icons pull-right">
+                <li><a href="#"><i class="fa fa-facebook fa-2x"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter fa-2x"></i></a></li>
+                <li><a href="#"><i class="fa fa-pinterest fa-2x"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin fa-2x"></i></a></li>
+                <li><a href="#"><i class="fa fa-google-plus fa-2x"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--close bottom-footer-->
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <script src="docs.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="ie10-viewport-bug-workaround.js"></script>
+    <!-- jssor slider scripts-->
+    <!-- use jssor.slider.debug.js for debug -->
+    <script type="text/javascript" src="js/jssor.slider.mini.js"></script>
+    <script>
+      jQuery(document).ready(function ($) {
+          var options = {
+              $AutoPlay: true,                
+              $AutoPlaySteps: 1,                                  
+              $Idle: 2000,                            
+              $PauseOnHover: 1,                                   
+      
+              $ArrowKeyNavigation: true,                         
+              $SlideEasing: $JssorEasing$.$EaseOutQuint,          
+              $SlideDuration: 800,                               
+              $MinDragOffsetToSlide: 20,                          
+              $SlideSpacing: 0,                                  
+              $Cols: 1,                                  
+              $ParkingPosition: 0,                                
+              $UISearchMode: 1,                                  
+              $PlayOrientation: 1,
+              $DragOrientation: 1,                             
+      
+              $ArrowNavigatorOptions: {                           
+                  $Class: $JssorArrowNavigator$,                  
+                  $ChanceToShow: 2,                              
+                  $AutoCenter: 2,                                 
+                  $Steps: 1,                                     
+                  $Scale: false                                
+              },
+      
+              $BulletNavigatorOptions: {                               
+                  $Class: $JssorBulletNavigator$,                       
+                  $ChanceToShow: 2,                              
+                  $AutoCenter: 1,                                 
+                  $Steps: 1,                                      
+                  $Rows: 1,                                     
+                  $SpacingX: 12,                                   
+                  $SpacingY: 4,                                   
+                  $Orientation: 1,                                
+                  $Scale: false                                   
+              }
+          };
+      
+          var jssor_slider1 = new $JssorSlider$("slider1_container", options);
+      
+          //responsive code begin
+          //you can remove responsive code if you don't want the slider scales while window resizing
+          function ScaleSlider() {
+              var parentWidth = jssor_slider1.$Elmt.parentNode.clientWidth;
+              if (parentWidth) {
+                  jssor_slider1.$ScaleWidth(parentWidth - 30);
+              }
+              else
+                  window.setTimeout(ScaleSlider, 30);
+          }
+          ScaleSlider();
+      
+          $(window).bind("load", ScaleSlider);
+          $(window).bind("resize", ScaleSlider);
+          $(window).bind("orientationchange", ScaleSlider);
+          //responsive code end
+      });
+    </script>
+    <div></div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!--carousel script start-->
+    <script>
+      $(document).ready(function(){
+          // Activate Carousel
+          $("#myCarousel").carousel();
+          
+          // Enable Carousel Indicators
+          $(".item1").click(function(){
+              $("#myCarousel").carousel(0);
+          });
+          $(".item2").click(function(){
+              $("#myCarousel").carousel(1);
+          });
+          $(".item3").click(function(){
+              $("#myCarousel").carousel(2);
+          });
+          $(".item4").click(function(){
+              $("#myCarousel").carousel(3);
+          });
+          
+          // Enable Carousel Controls
+          $(".left").click(function(){
+              $("#myCarousel").carousel("prev");
+          });
+          $(".right").click(function(){
+              $("#myCarousel").carousel("next");
+          });
+      });
+    </script><!--carousel script end-->
+  </body>
+</html>

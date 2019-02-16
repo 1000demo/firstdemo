@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Media</title>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.min.css">
+   </head>
+   <body>
+      <div class="container-fluid">
+         <div class="toprmenu">
+            <ul>
+               <span id="hide">
+                  <li><a href="#"><img src="images/t1.png" alt="icon" /></a></li>
+                  <li><a href="#"><img src="images/t2.png" alt="icon" /></a></li>
+                  <li><a href="#"><img src="images/t3.png" alt="icon" /></a></li>
+               </span>
+               <li class="barline"><a href="#"><img src="images/t4.png" alt="icon" style="margin-left: 10px;"/></a></li>
+            </ul>
+         </div>
+         <div class="row">
+            <div class="col-md-2 text-center">
+               <p><img src="images/logo.png" alt="logo">
+               </p>
+               <p>
+                  <button class="composebtn">
+                  <img src="images/compose.png" alt="compose"><span>Compose</span>
+                  </button>
+                  <!--compose menu start-->
+               </p>
+               <nav class="navbar firstnav">
+                  <div class="container-fluid" style="padding: 0px;">
+                     <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed composebtn-mob" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <img src="images/compose.png" alt="compose"><span>Compose</span>
+                        </button>
+                     </div>
+                     <div id="navbar" class="navbar-collapse collapse" style="padding-left: 5px;">
+                        <ul class="nav compose-menu">
+                           <li class="active"><a href="#"><img src="images/1.png" alt="icon"> Inbox</a></li>
+                           <li><a href="#"><img src="images/2.png" alt="icon">Sent</a></li>
+                           <li><a href="#"><img src="images/3.png" alt="icon">Drafts</a></li>
+                           <li><a href="#"><img src="images/4.png" alt="icon">Trash</a></li>
+                           <li><a href="#"><img src="images/5.png" alt="icon">Chats</a></li>
+                           <li>
+                              <hr style="margin:0px;">
+                           </li>
+                           <li><a href="#"><img src="images/6.png" alt="icon">Task</a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </nav>
+               <!--compose menu end-->
+            </div>
+            <div class="col-md-10 text-center ac-setting">
+               <h4 align="left">Account Setting</h4>
+               <div class="ac-inner" style="background-color: #fff;padding: 20px 20px 120px 20px;">
+                  <h4 align="left">Your Profile</h4>
+                  <hr style="margin: 0px;">
+                  <div class="row" style="margin:0px;">
+                     <div class="col-md-4">
+                        <div class="ac-pict">
+                           <img src="images/profile.png" alt="picture" />
+                        </div>
+                        <div class="cross">
+                           <img src="images/cross.png" alt="close" />
+                        </div>
+                     </div>
+                     <div class="col-md-8 pwd">
+                        <p align="left" class="text info-mob">General Info</p>
+                        <div class="formob">
+                           <div class="row">
+                              <div class="col-md-4">
+                                 <p align="left" class="hidedesktp" style="color: #4c4f58;font-weight: bold;">General Info</p>
+                                 <label>First Name</label>
+                                 <input type="text" placeholder="David">
+                              </div>
+                              <div class="col-md-4">
+                                 <label>Last Name</label>
+                                 <input type="text" placeholder="Wilson">
+                              </div>
+                              <div class="col-md-4">
+                              </div>
+                           </div>
+                           <div class="row">
+                              <div class="col-md-12">
+                                 <label>Your Mail</label>
+                                 <input type="text" placeholder="mailto @gmail.com" style="background-color:#eaf0fe;">
+                                 <a href="#" class="change-email">Change email </a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="formob2">
+                           <p align="left" class="text">Change Pasword</p>
+                           <div class="row">
+                              <div class="col-md-4">
+                                 <label>Current Password</label>
+                                 <input type="password" placeholder="*************">
+                                 <button type="submit" class="submit">Submit</button>
+                              </div>
+                              <div class="col-md-4">
+                                 <label>New Password</label>
+                                 <input type="password" placeholder="*************">
+                              </div>
+                              <div class="col-md-4">
+                                 <label>Confirmed Password</label>
+                                 <input type="password" placeholder="*************">
+                                 <button type="submit" class="submit-mob">Submit</button>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+   </body>
+</html>

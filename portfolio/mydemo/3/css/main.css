@@ -1,0 +1,353 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #f5f5f5;
+}
+img {
+    max-width: 100%;
+}
+.navbar-default {
+    border: 0;
+    background-color: #fff;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: #2DCC70;
+}
+.navbar-nav>li>a {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.lock-border {
+    border-left: 1px solid #e5e5e5;
+}
+#myNavbar {
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+div#myCarousel {
+    margin-top: 85px;
+    height: 500px;
+}
+.free-trial {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.trial-btn {
+    border-radius: 0;
+    color: #fff;
+    background-color: #5BB75B;
+    margin-top: 20px;
+    padding: 11px 19px;
+}
+.trial-btn:hover {
+    background-color: #51a351;
+    color: #fff;
+}
+.offer {
+    padding-bottom: 20px;
+    padding: 0px 5px;
+}
+.circle-icon {
+    background: #2DCC70;
+    border-radius: 50%;
+    padding: 10px;
+}
+.offer-section {
+    background-color: #252525;
+}
+.features {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #2DCC70;
+}
+.info h5 {
+    font-weight: 700;
+    color: #fff;
+}
+.our-partners {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.top-footer {
+    background-color: #232323;
+    padding-top: 50px;
+    padding-bottom: 65px;
+}
+.address strong {
+    padding-left: 10px;
+}
+.address li {
+    color: #6f6f6f;
+    padding-bottom: 15px;
+}
+.company li {
+    color: #6f6f6f;
+    padding: 5px;
+}
+.company li a {
+    color: #6f6f6f;
+    margin-left: 5px;
+}
+.bottom-footer {
+    background-color: #333;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    color: #6f6f6f;
+}
+.social-icons li {
+    display: inline-block;
+    margin: 0 5px;
+}
+.social-icons li a {
+    color: #6f6f6f;
+}
+.social-icons li a:hover {
+    color: #2dcc70;
+}
+.logo img {
+    margin-top: 15px;
+    padding-bottom: 10px;
+}
+.services-list {
+    padding-top: 40px;
+    padding-bottom: 55px;
+    color: #34495E;
+}
+.services {
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+.services h3,
+p {
+    color: #6b6b6b;
+}
+.btn-primary {
+    background-color: #2dcc70;
+    border-radius: 0;
+    border: 0;
+    padding: 10px 20px;
+}
+.btn-primary:hover {
+    background-color: #24a259;
+}
+.aboutus-skills {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.aboutus-skills p {
+    margin: 0;
+    padding: 0;
+}
+.aboutus-skills h2,
+.team h1,
+.choose-us h3 {
+    color: #34495e;
+}
+.progress span {
+    float: left;
+    padding-left: 10px;
+    line-height: 30px;
+}
+.progress {
+    border-radius: 0;
+    box-shadow: none;
+    height: 30px;
+    margin-bottom: 12px;
+}
+hr {
+    border: 0;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #fff;
+    margin: 20px 0;
+}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 70%;
+    height: 500px;
+    margin: auto;
+}
+.carousel {
+    margin-top: 20px;
+}
+.item .thumb {
+    width: 25%;
+    cursor: pointer;
+    float: left;
+}
+.item .thumb img {
+    width: 70%;
+    margin: 2px;
+}
+.item img {
+    width: 100%;
+}
+a.btn.btn-social.fa.fa-facebook {
+    background: #4f7dd4;
+    color: #fff;
+}
+a.btn.btn-social.fa.fa-google-plus {
+    background: #e36957;
+    color: #fff;
+}
+a.btn.btn-social.fa.fa-twitter {
+    background: #5bceff;
+    color: #fff;
+}
+a.btn.btn-social.fa.fa-linkedin {
+    background: #21a6d8;
+    color: #fff;
+}
+.panel-default>.panel-heading {
+    background-color: #fff;
+}
+.panel-heading .btn {
+    border-radius: 0;
+}
+.choose-us {
+    padding: 20px;
+}
+.panel-group .panel-heading+.panel-collapse>.panel-body {
+    border-top: 0;
+}
+h4.panel-title {
+    font-size: 14px;
+}
+.choose-us .panel-group {
+    margin-bottom: 2px;
+}
+.portfolio-list {
+    padding: 50px;
+}
+.port {
+    padding-top: 10px;
+    font-weight: 700;
+    padding-bottom: 0;
+}
+.dropdown-menu>li>a:focus,
+.dropdown-menu>li>a:hover {
+    color: #262626;
+    text-decoration: none;
+    background-color: #2DCC70;
+}
+.contact-us {
+    padding: 30px;
+}
+.contact-us label {
+    display: block;
+    margin-bottom: 5px;
+}
+.input-block-level {
+    border-radius: 3px;
+    box-shadow: none;
+    min-height: 50px;
+    border: 3px solid #ededed;
+    width: 100%;
+    padding: 0 15px;
+}
+.comment {
+    width: 100%;
+    height: 200px;
+    border: 3px solid #ededed;
+}
+.msg {
+    margin-top: 55px;
+}
+.top-footer h4,
+.top-footer h3,
+.font-color,
+.features h3,
+.features p {
+    color: #fff;
+}
+.free-trial h4,
+.client {
+    color: #999;
+}
+.aboutus-text,
+.services2,
+.portfolio {
+    background: #2dcc70;
+    color: #fff;
+    padding-top: 20px;
+    margin-top: 91px;
+    padding-bottom: 20px;
+}
+a.collapsed,
+a:hover {
+    text-decoration: none;
+}
+.port small,
+.msg label,
+label {
+    font-weight: 400;
+}
+.loginmodal-container {
+    /*background-color: #F7F7F7;*/
+}
+.loginmodal-container input[type="text"] {
+    border: 1px solid #b9b9b9;
+    border-top: 1px solid #a0a0a0;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+    height: 25px;
+    font-size: 14px;
+    width: 80%;
+    padding: 10px;
+    margin: 5px 0px;
+}
+.loginmodal-container input[type="password"] {
+    border: 1px solid #b9b9b9;
+    border-top: 1px solid #a0a0a0;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+    height: 25px;
+    font-size: 14px;
+    width: 80%;
+    padding: 10px;
+    margin: 5px 0px 15px 0px;
+}
+.fp {
+    padding: 0;
+    margin-top: 2px;
+    font-size: 12px;
+}
+.modal-content {
+    border-radius: 0;
+}
+.loginmodal-container .btn {
+    border-radius: 0;
+}
+.border-right {
+    border-right: 1px solid #ddd;
+}
+.lock button.btn.btn-default.btn-sm {
+    border-radius: 0;
+    background: #fff;
+    border: 0;
+    box-shadow: none;
+    padding: 0;
+}
+.navbar-right {
+    margin-right: 0px;
+    margin-top: 15px;
+}
+section.map {
+    margin-top: 91px;
+}
+.btn-primary:focus,
+.btn-primary:active {
+    background-color: #2dcc70;
+}
+.btn-primary:active:focus {
+    background-color: #2dcc70;
+    border-color: #2dcc70;
+}
+.lock a button:hover {
+    color: #2dcc70;
+}
+.navbar-toggle {
+    margin-top: 25px;
+}
+.container-fluid.slider-start {
+    margin-top: 76px;
+}

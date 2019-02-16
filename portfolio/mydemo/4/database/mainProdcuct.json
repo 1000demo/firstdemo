@@ -1,0 +1,229 @@
+{
+	// this section is for sarees
+	"sarees" : [
+
+		{
+			"category" : "sarees",
+			"productName": "kolahapuriSadi",
+			"productId" : "sarees1",
+			"price" : "230",
+			"description" : "this is special kolhapuri sadi made to rock the world",
+			
+			"mainImagePath": "./database/image/sarees/kolahapuriSadi.jpg",
+			"productViewImages" : [
+					"./database/image/sarees/kolahapuriSadi.jpg",
+					"./database/image/sarees/productViewImages/kolahapuriSadi1.jpg",
+					"./database/image/sarees/productViewImages/kolahapuriSadi2.jpg"
+			]
+		}
+		{
+			"category" : "sarees",
+			"productName": "kolahapuriSadi",
+			"productId" : "sarees1",
+			"price" : "230",
+			"description" : "this is special kolhapuri sadi made to rock the world",
+			
+			"mainImagePath": "./database/image/sarees/s1.jpg",
+			"productViewImages" : [
+					"./database/image/sarees/s1.jpg",
+					"./database/image/sarees/productViewImages/sareesview-01.jpg",
+					"./database/image/sarees/productViewImages/sareesview-02.jpg"
+			]
+		}
+		{
+			"category" : "sarees",
+			"productName": "kolahapuriSadi",
+			"productId" : "sarees1",
+			"price" : "230",
+			"description" : "this is special kolhapuri sadi made to rock the world",
+			
+			"mainImagePath": "./database/image/sarees/s1.jpg",
+			"productViewImages" : [
+					"./database/image/sarees/s1.jpg",
+					"./database/image/sarees/productViewImages/sareesview-01.jpg",
+					"./database/image/sarees/productViewImages/sareesview-02.jpg"
+			]
+		}
+		{
+			"category" : "sarees",
+			"productName": "kolahapuriSadi",
+			"productId" : "sarees1",
+			"price" : "230",
+			"description" : "this is special kolhapuri sadi made to rock the world",
+			
+			"mainImagePath": "./database/image/sarees/s1.jpg",
+			"productViewImages" : [
+					"./database/image/sarees/s1.jpg",
+					"./database/image/sarees/productViewImages/sareesview-01.jpg",
+					"./database/image/sarees/productViewImages/sareesview-02.jpg"
+			]
+		}
+		{
+			"category" : "sarees",
+			"productName": "kolahapuriSadi",
+			"productId" : "sarees1",
+			"price" : "230",
+			"description" : "this is special kolhapuri sadi made to rock the world",
+			
+			"mainImagePath": "./database/image/sarees/s1.jpg",
+			"productViewImages" : [
+					"./database/image/sarees/s1.jpg",
+					"./database/image/sarees/productViewImages/sareesview-01.jpg",
+					"./database/image/sarees/productViewImages/sareesview-02.jpg"
+			]
+		}
+	],
+	// this section is for jwewllary
+	"jwewllary" : [
+
+		{
+			"category" : "jwewllary",
+			"productName": "Necklace",
+			"productId" : "necklace",
+			"price" : "230",
+			"description" : "this is special kolhapuri sadi made to rock the world",
+			
+			"mainImagePath": "./database/image/sarees/kolahapuriSadi.jpg",
+			"productViewImages" : [
+					"./database/image/sarees/kolahapuriSadi.jpg",
+					"./database/image/sarees/productViewImages/kolahapuriSadi1.jpg",
+					"./database/image/sarees/productViewImages/kolahapuriSadi2.jpg"
+			]
+		}
+		{
+			"category" : "jewellery",
+			"productName": "necklace",
+			"productId" : "nck",
+			"price" : "230",
+			"description" : "this is special kolhapuri sadi made to rock the world",
+			
+			"mainImagePath": "./database/image/jewellery/j1.jpg",
+			"productViewImages" : [
+					"./database/image/sarees/j1.jpg",
+					"./database/image/sarees/productViewImages/necklaceview-01.jpg",
+					"./database/image/sarees/productViewImages/necklaceview-02.jpg"
+			]
+		}
+		{
+			"category" : "jewellery",
+			"productName": "necklace",
+			"productId" : "nck",
+			"price" : "230",
+			"description" : "this is special kolhapuri sadi made to rock the world",
+			
+			"mainImagePath": "./database/image/jewellery/j1.jpg",
+			"productViewImages" : [
+					"./database/image/sarees/j1.jpg",
+					"./database/image/sarees/productViewImages/necklaceview-01.jpg",
+					"./database/image/sarees/productViewImages/necklaceview-02.jpg"
+			]
+		}
+		{
+			"category" : "jewellery",
+			"productName": "necklace",
+			"productId" : "nck",
+			"price" : "230",
+			"description" : "this is special kolhapuri sadi made to rock the world",
+			
+			"mainImagePath": "./database/image/jewellery/j1.jpg",
+			"productViewImages" : [
+					"./database/image/sarees/j1.jpg",
+					"./database/image/sarees/productViewImages/necklaceview-01.jpg",
+					"./database/image/sarees/productViewImages/necklaceview-02.jpg"
+			]
+		}
+		{
+			"category" : "jewellery",
+			"productName": "necklace",
+			"productId" : "nck",
+			"price" : "230",
+			"description" : "this is special kolhapuri sadi made to rock the world",
+			
+			"mainImagePath": "./database/image/jewellery/j1.jpg",
+			"productViewImages" : [
+					"./database/image/sarees/j1.jpg",
+					"./database/image/sarees/productViewImages/necklaceview-01.jpg",
+					"./database/image/sarees/productViewImages/necklaceview-02.jpg"
+			]
+		}
+	],
+	
+	// this section is for dresses
+	"dress" : [
+
+		{
+			"category" : "dress",
+			"productName": "kolahapuriSadi",
+			"productId" : "sarees1",
+			"price" : "230",
+			"description" : "this is special kolhapuri sadi made to rock the world",
+			
+			"mainImagePath": "./database/image/sarees/kolahapuriSadi.jpg",
+			"productViewImages" : [
+					"./database/image/sarees/kolahapuriSadi.jpg",
+					"./database/image/sarees/productViewImages/kolahapuriSadi1.jpg",
+					"./database/image/sarees/productViewImages/kolahapuriSadi2.jpg"
+			]
+		}
+		{
+			"category" : "dress",
+			"productName": "panjabidress",
+			"productId" : "pd",
+			"price" : "230",
+			"description" : "this is special kolhapuri sadi made to rock the world",
+			
+			"mainImagePath": "./database/image/sarees/d1.jpg",
+			"productViewImages" : [
+					"./database/image/sarees/d1.jpg",
+					"./database/image/sarees/productViewImages/dressview-01.jpg",
+					"./database/image/sarees/productViewImages/dressview-02.jpg"
+			]
+		}
+		{
+			"category" : "dress",
+			"productName": "panjabidress",
+			"productId" : "pd",
+			"price" : "230",
+			"description" : "this is special kolhapuri sadi made to rock the world",
+			
+			"mainImagePath": "./database/image/sarees/d1.jpg",
+			"productViewImages" : [
+					"./database/image/sarees/d1.jpg",
+					"./database/image/sarees/productViewImages/dressview-01.jpg",
+					"./database/image/sarees/productViewImages/dressview-02.jpg"
+			]
+		}
+		{
+			"category" : "dress",
+			"productName": "panjabidress",
+			"productId" : "pd",
+			"price" : "230",
+			"description" : "this is special kolhapuri sadi made to rock the world",
+			
+			"mainImagePath": "./database/image/sarees/d1.jpg",
+			"productViewImages" : [
+					"./database/image/sarees/d1.jpg",
+					"./database/image/sarees/productViewImages/dressview-01.jpg",
+					"./database/image/sarees/productViewImages/dressview-02.jpg"
+			]
+		}
+		{
+			"category" : "dress",
+			"productName": "panjabidress",
+			"productId" : "pd",
+			"price" : "230",
+			"description" : "this is special kolhapuri sadi made to rock the world",
+			
+			"mainImagePath": "./database/image/sarees/d1.jpg",
+			"productViewImages" : [
+					"./database/image/sarees/d1.jpg",
+					"./database/image/sarees/productViewImages/dressview-01.jpg",
+					"./database/image/sarees/productViewImages/dressview-02.jpg"
+			]
+		}
+	]				
+
+
+			
+
+}
