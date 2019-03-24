@@ -1,13 +1,13 @@
 /*......
-        width, border classes added here 
+width, border classes added here 
 ............*/
 
 /* percentage width start */
 .w-100{
-	width: 100% !important;
+width: 100% !important;
 }
 .w-21 {
-    width: 21%;
+width: 21%;
 }
 /* percentage width end */
 
@@ -16,11 +16,16 @@
 /* pixels width end */
 
 .br-b-1px{
-   border-bottom: 1px solid #333;
+border-bottom: 1px solid #333;
 }
 .br-b-2px{
 
 }
 .fw-600{
-	font-weight: 600;
+font-weight: 600;
 }
+/*line height classes */
+.lh-1-5{
+	line-height: 1.5 !important;
+}
+/*line height classes end */
