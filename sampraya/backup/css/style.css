@@ -1,141 +1,213 @@
 body{
-	color: #06294e;
+color: #06294e;
+margin: 0;
+padding: 0;
 }
 .slider .indicators{
-	display: none;
+display: none;
 }
-
 .homebg {
-       background-size: cover;
-    height: 590px;
-    /* background-position: 82%; */
-/*    background-image: url(../images/mybanner2-new.jpg);*/
-        background-image: url(../images/mybanner2.jpg);
-    background-repeat: no-repeat;
+background-size: cover;
+height: 540px;
+margin-top: 50px;
+/* background-position: 82%;
+*/
+/* background-image: url(../images/mybanner2-new.jpg);
+*/
+background-image: url(../images/mybanner2.jpg);
+background-repeat: no-repeat;
 }
 .ket {
-    background-image: url(../images/mac.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    height: 250px;
+background-image: url(../images/mac.png);
+background-size: 100%;
+background-repeat: no-repeat;
+height: 250px;
 }
 .videoBg{
-    width: 300px;
-    height: 221px;
-    margin: 0px 0px 0px 78px !important;
+width: 300px;
+height: 221px;
+margin: 0px 0px 0px 78px !important;
+}
+video {
+max-width: 100%;
+height: auto;
 }
 .slider-text{
-	padding-top: 10%;
+padding-top: 10%;
 }
-
 .test{
-	height: 100%;
-	/*background: linear-gradient(45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);*/
+height: 100%;
+/*background: linear-gradient(45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
+*/
 }
-
 .banner-btn{
-	padding: 15px 0px !important;
+padding: 15px 0px !important;
 }
-
 ul li a{
-	color: #06294e;
+color: #06294e;
 }
-
 nav{
-    background-color: #fff;
-    /* border-bottom: 1px solid #024d9b; */
+background-color: #fff;
+/* border-bottom: 1px solid #024d9b;
+*/
 }
 label{
-	/*color: #fff !important;*/
+/*color: #fff !important;
+*/
 }
 .service-hvr:hover{
-	cursor: pointer;
-	color: #fff;
-	background-color: #06294e;
-    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+cursor: pointer;
+box-shadow: 0 10px 22px 10px rgba(27,38,49,.1);
+/*background-color: #06294e;
+box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+*/
+}
+.service-hvr:hover .material-icons{
+color: #58a3e0;
 }
 .portfolio img{
-    width: 100%;
-    display: block;
-    transition: opacity 2s ease, transform 2s ease;
-    height: 100%;
+width: 100%;
+display: block;
+transition: opacity 2s ease, transform 2s ease;
+height: 100%;
 }
 .portfolio img:hover {
-    opacity: 0.3;
-    cursor: pointer;
-    transform: scale(1.3);
+opacity: 0.3;
+cursor: pointer;
+transform: scale(1.3);
 }
 .overflow-hidden{
-    overflow: hidden;
+overflow: hidden;
 }
 .contactBg{
-	text-align: center;
-    padding: 30px;
-    background: rgba(255,255,255,0.8);
-    margin: 100px auto 0px;
-    border-radius: 50px;
+text-align: center;
+padding: 30px;
+background: rgba(255,255,255,0.8);
+margin: 100px auto 0px;
+border-radius: 20px;
 }
 footer{
-	 background-color: #06294e;
-	 padding: 20px 0px;
+background-color: #06294e;
+padding: 20px 0px;
 }
-footer p,
-.social-icon {
-    padding: 0px 0px;
-    text-align: center;
-    background-color: #06294e;
-    color: #fff;
+footer p, .social-icon {
+padding: 0px 0px;
+text-align: center;
+background-color: #06294e;
+color: #fff;
 }
 ul.social-icon li {
-    display: inline-block;
-    background: #26292e;
+display: inline-block;
+background: #17283a;
 }
 ul.social-icon li a {
-    border: 1px solid transparent;
-    display: block;
-    height: 70px;
-    width: 70px;
-    -webkit-transform: rotateY(180deg);
-    transform: rotateY(180deg);
-    transition: all 400ms ease-out 0s;
+border: 1px solid transparent;
+display: block;
+height: 70px;
+width: 70px;
+-webkit-transform: rotateY(180deg);
+transform: rotateY(180deg);
+transition: all 400ms ease-out 0s;
 }
 ul.social-icon li:hover a {
-/*    background-color: #57cbcc;*/
-background-color: #9abbde;
-    -webkit-transform: rotateY(0deg);
-    transform: rotateY(0deg);
+/* background-color: #57cbcc;
+*/
+background-color: #4f80b3;
+-webkit-transform: rotateY(0deg);
+transform: rotateY(0deg);
 }
 ul.social-icon li a i {
-    color: #55606a;
-    display: inline-block;
-    font-size: 32px;
-    line-height: 70px;
-    margin: 0;
-    opacity: 0.3;
-    filter: alpha(opacity=30);
-    -webkit-transform: rotateY(180deg);
-    transform: rotateY(180deg);
-    transition: all 400ms ease-out 0s;
+color: #55606a;
+display: inline-block;
+font-size: 32px;
+line-height: 70px;
+margin: 0;
+opacity: 0.3;
+filter: alpha(opacity=30);
+-webkit-transform: rotateY(180deg);
+transform: rotateY(180deg);
+transition: all 400ms ease-out 0s;
 }
 ul.social-icon li:hover a i {
-    color: #fff;
-    opacity: 1;
-    filter: alpha(opacity=100);
-    -webkit-transform: rotateY(0deg);
-    transform: rotateY(0deg);
+color: #fff;
+opacity: 1;
+filter: alpha(opacity=100);
+-webkit-transform: rotateY(0deg);
+transform: rotateY(0deg);
 }
 ul.social-icon li a i {
-    color: #55606a
+color: #fff;
 }
 .common-hvr:hover{
-	background-color: #9abbde !important;
+background-color: #4f80b3 !important;
+}
+nav ul a:hover{
+background-color: #4f80b3 !important;
+color: #fff !important;
 }
 #scrolltoTopBtn {
-      display: none;
-      position: fixed;
-    bottom: 20px;
-    right: 30px;
+display: none;
+position: fixed;
+bottom: 20px;
+right: 30px;
 }
 .sam-intro h6{
-	font-size: 21px
+font-size: 21px 
+}
+input type=text not(.browser-default):focus:not([readonly]){
+border-bottom: 1px solid #06294e !important;
+-webkit-box-shadow: 0 1px 0 0 #06294e !important;
+box-shadow: 0 1px 0 0 #06294e !important;
+}
+body {
+margin: 0;
+font-family: Arial, Helvetica, sans-serif;
+}
+.sticky {
+position: fixed;
+top: 0;
+width: 100%;
+/* z-index: 1;
+*/
+}
+@media (max-width: 768px){
+.homebg {
+height: 380px;
+background-image: none;
+}
+.videoBg{
+margin: 0px auto !important;
+width: 100%;
+}
+.ket{
+background-image: none;
+}
+.w-21 {
+width: 100%;
+}
+.contactParal{
+height: 1000px !important;
+}
+.m-text{
+text-align: center;
+font-size: 32px;
+}
+.contactBg{
+margin: 20px auto 0px;
+}
+ul#mobile-demo {
+background-color: #06294e;
+}
+.sidenav li a{
+color: #fff;
+}
+.sidenav li>a:hover {
+background-color: #58a3e0;
+}
+span.typing{
+font-size: 28px !important;
+}
+.sam-intro {
+text-align: center;
+}
 }
