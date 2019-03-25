@@ -66,10 +66,10 @@ box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px
 color: #58a3e0;
 }
 .portfolio img{
-width: 100%;
+width: 200px;
 display: block;
 transition: opacity 2s ease, transform 2s ease;
-height: 100%;
+height: auto;
 }
 .portfolio img:hover {
 opacity: 0.3;
@@ -167,13 +167,20 @@ font-family: Arial, Helvetica, sans-serif;
 position: fixed;
 top: 0;
 width: 100%;
-/* z-index: 1;
-*/
 }
+
 @media (max-width: 768px){
 .homebg {
-height: 380px;
-background-image: none;
+background-size: cover;
+margin-top: 50px;
+background-image: url(../images/mob-banner-01.jpg);
+/*background-image: url(../images/mob-banner-02.jpg);
+background-image: url(../images/mob-banner-03.jpg);
+background-image: url(../images/mob-banner-04.jpg);*/
+background-repeat: no-repeat;
+}
+.slider-text h3 span {
+    color: #fff;
 }
 .videoBg{
 margin: 0px auto !important;
@@ -206,8 +213,23 @@ background-color: #58a3e0;
 }
 span.typing{
 font-size: 28px !important;
+color: #fff !important;
 }
 .sam-intro {
 text-align: center;
+}
+.col.m4.overflow-hidden.mb-20px {
+    width: 100%;
+}
+.portfolio img{
+        margin: 0px auto;
+        width: 230px;
+}
+footer p{
+    padding: 0px 40px;
+}
+.exploreus{
+    top: 12rem;
+    left: 7rem;
 }
 }
